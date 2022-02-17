@@ -6,7 +6,6 @@ Today we're recreating a grid of cards. You'll have the opportunity to implement
 ## Instructions
 - Create a 16 card grid, each card includes:
 	- A main image with (found in the assets folder)
-	- A logo in the top right corner (found in the assets folder)
 	- A set of social media icons
 	- A paragraph of text (lorem ipsum)
 - The header section should stay fixed at the top
@@ -25,3 +24,6 @@ Today we're recreating a grid of cards. You'll have the opportunity to implement
 - Create a second page that will be linked to each card. This is called a detail page
 and should contain the same image as the card, plus some other descriptive content.
 - It should have as well the same header and proper navigation in between pages.
+
+## Challenge 3
+- Add a logo in the top right corner of each card (found in the assets folder)
