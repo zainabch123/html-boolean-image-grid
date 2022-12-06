@@ -5,7 +5,7 @@ Today we're recreating a grid of cards. You'll have the opportunity to implement
 
 ## Instructions
 - Create a 16 card grid, each card includes:
-	- A main image with (found in the assets folder)
+	- A main image with (found in the `assets` folder)
 	- A set of social media icons
 	- A paragraph of text (lorem ipsum)
 - The header section should stay fixed at the top
@@ -14,11 +14,13 @@ Today we're recreating a grid of cards. You'll have the opportunity to implement
 	
 ## Tips
 - Use grid to get the right layout in the card grid
-- You'll find an assets folder in the template, use the images in it
+- You'll find an `assets` folder in the template, use the images in it
 - Don't forget to use what you've learned from the box model to position items inside the card
 
 ## Challenge 1
-- Add a hero section before the grid section. You'll find an image you can use in the assets folder
+- Add a "hero section" to your page, before the grid section. You'll find an image you can use in the `assets` folder.
+- The hero section should look something like this:
+![HeroSection](images/hero-page-result.png)
 
 ## Challenge 2
 - Create a second page that will be linked to each card. This is called a detail page
@@ -26,4 +28,4 @@ and should contain the same image as the card, plus some other descriptive conte
 - It should have as well the same header and proper navigation in between pages.
 
 ## Challenge 3
-- Add a logo in the top right corner of each card (found in the assets folder)
+- Add a logo in the top right corner of each card (found in the `assets` folder)
