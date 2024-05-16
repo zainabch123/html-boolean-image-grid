@@ -1,0 +1,86 @@
+* {
+  background-color: lightgray;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(0px, 200px) 1fr minmax(0px, 200px);
+  grid-template-rows: 60px 1fr 60px;
+  border: 2px solid black;
+  background-color: white;
+}
+.card-grid {
+  grid-row: 2 / span 2;
+  grid-column: 2 / span 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+  max-width: auto;
+  gap: 10px;
+  background-color: white;
+  margin-top: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.header {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+  background-color: black;
+  box-shadow: 0 8px 6px -6px black;  margin-bottom: 20px;
+}
+
+.header img{
+    margin-left: 3px;
+    object-position: center;
+}
+
+.footer {
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 3;
+    background-color: black
+}
+
+.card {
+    display: grid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    justify-items: end;
+    background-color: white;
+}
+#card-main-image {
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+#boolean-logo {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+    max-width: 40px;
+}
+.social-media-icons {
+   margin-right: 20px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   background-color: white;
+}
+#github-icon {
+    max-width: 30px;
+    border-radius: 50%;
+}
+#twitter-icon {
+    max-width: 30px;
+    border-radius: 50%;
+}
+#card-p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
